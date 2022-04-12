@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Sizing */
+.w-screen {
+  width: 100vw;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.min-w-12 {
+  min-width: 3rem;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex-col	{
+  flex-direction: column;
+}
+
+/* Background */
+.bg-gray {
+  background: #e2e2e2;
+}
+
+/* Padding */
+.p-3 {
+  padding: 0.75rem; 
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+/* Margin */
+.mt-3 {
+  margin-top: 0.75rem; 
+}
+
+/* Border radius */
+.rounded {
+  border-radius: 0.25rem;
+}
+
+/* Typography */
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+/* Display */
+.hidden {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
